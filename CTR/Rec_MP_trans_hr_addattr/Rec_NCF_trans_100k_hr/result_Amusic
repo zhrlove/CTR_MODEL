@@ -1,0 +1,134 @@
+F:\python\py\python.exe F:/pycharm/Rec_MP_trans_hr/Rec_NCF_trans_1m_hr076/Model.py
+Loading AMusic data set...
+Loading Success!
+Data Info:
+	User Num: 445
+	Item Num: 1516
+	Data Size: 18359
+F:\python\py\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-11-09 13:04:05.887398: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 13:04:05.887719: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 13:04:05.888045: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 13:04:05.888354: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 13:04:05.888661: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 13:04:05.888974: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 13:04:05.889283: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-11-09 13:04:05.889606: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Start Training!
+====================Epoch  0 ====================
+1360 / 1365 : loss = 0.5019351243972778
+Mean loss in this epoch is: 0.4904474914073944
+==================================================
+Start Evaluation!
+Epoch  0 HR: 0.20224719101123595, NDCG: 0.0952106515568756
+====================Epoch  0 End====================
+====================Epoch  1 ====================
+1360 / 1365 : loss = 0.4491707682609558
+Mean loss in this epoch is: 0.46559664607048035
+==================================================
+Start Evaluation!
+Epoch  1 HR: 0.2808988764044944, NDCG: 0.14192393313705579
+====================Epoch  1 End====================
+====================Epoch  2 ====================
+1360 / 1365 : loss = 0.4016669690608978
+Mean loss in this epoch is: 0.41984277963638306
+==================================================
+Start Evaluation!
+Epoch  2 HR: 0.350561797752809, NDCG: 0.18580784014487972
+====================Epoch  2 End====================
+====================Epoch  3 ====================
+1360 / 1365 : loss = 0.3840157389640808
+Mean loss in this epoch is: 0.38488903641700745
+==================================================
+Start Evaluation!
+Epoch  3 HR: 0.4247191011235955, NDCG: 0.2250649629733848
+====================Epoch  3 End====================
+====================Epoch  4 ====================
+1360 / 1365 : loss = 0.33807089924812317
+Mean loss in this epoch is: 0.3663645386695862
+==================================================
+Start Evaluation!
+Epoch  4 HR: 0.4314606741573034, NDCG: 0.24021147851376679
+====================Epoch  4 End====================
+====================Epoch  5 ====================
+1360 / 1365 : loss = 0.33548253774642944
+Mean loss in this epoch is: 0.3528953492641449
+==================================================
+Start Evaluation!
+Epoch  5 HR: 0.4449438202247191, NDCG: 0.24309621052170993
+====================Epoch  5 End====================
+====================Epoch  6 ====================
+1360 / 1365 : loss = 0.316135048866272
+Mean loss in this epoch is: 0.339697003364563
+==================================================
+Start Evaluation!
+Epoch  6 HR: 0.46741573033707867, NDCG: 0.27189775803596505
+====================Epoch  6 End====================
+====================Epoch  7 ====================
+1360 / 1365 : loss = 0.36627498269081116
+Mean loss in this epoch is: 0.33025428652763367
+==================================================
+Start Evaluation!
+Epoch  7 HR: 0.4696629213483146, NDCG: 0.262274395732038
+====================Epoch  7 End====================
+====================Epoch  8 ====================
+1360 / 1365 : loss = 0.30938705801963806
+Mean loss in this epoch is: 0.31782373785972595
+==================================================
+Start Evaluation!
+Epoch  8 HR: 0.4584269662921348, NDCG: 0.2748161326262544
+====================Epoch  8 End====================
+====================Epoch  9 ====================
+1360 / 1365 : loss = 0.3013570010662079
+Mean loss in this epoch is: 0.30872195959091187
+==================================================
+Start Evaluation!
+Epoch  9 HR: 0.47415730337078654, NDCG: 0.2734261674473465
+====================Epoch  9 End====================
+====================Epoch  10 ====================
+1360 / 1365 : loss = 0.32711002230644226
+Mean loss in this epoch is: 0.3004385232925415
+==================================================
+Start Evaluation!
+Epoch  10 HR: 0.4404494382022472, NDCG: 0.2596766972310567
+====================Epoch  10 End====================
+====================Epoch  11 ====================
+1360 / 1365 : loss = 0.31437253952026367
+Mean loss in this epoch is: 0.2894774377346039
+==================================================
+Start Evaluation!
+Epoch  11 HR: 0.43595505617977526, NDCG: 0.2536891941205513
+====================Epoch  11 End====================
+====================Epoch  12 ====================
+1360 / 1365 : loss = 0.27539119124412537
+Mean loss in this epoch is: 0.2801206111907959
+==================================================
+Start Evaluation!
+Epoch  12 HR: 0.4314606741573034, NDCG: 0.24691779428503774
+====================Epoch  12 End====================
+====================Epoch  13 ====================
+1360 / 1365 : loss = 0.28783681988716125
+Mean loss in this epoch is: 0.2702769339084625
+==================================================
+Start Evaluation!
+Epoch  13 HR: 0.451685393258427, NDCG: 0.2614759274515287
+====================Epoch  13 End====================
+====================Epoch  14 ====================
+1360 / 1365 : loss = 0.2691505253314972
+Mean loss in this epoch is: 0.2626458704471588
+==================================================
+Start Evaluation!
+Epoch  14 HR: 0.45617977528089887, NDCG: 0.2594363490622408
+====================Epoch  14 End====================
+====================Epoch  15 ====================
+1360 / 1365 : loss = 0.2684341371059418
+Mean loss in this epoch is: 0.2509036958217621
+==================================================
+Start Evaluation!
+Epoch  15 HR: 0.43820224719101125, NDCG: 0.2565757121606979
+Normal Early stop!
+Best hr: 0.47415730337078654, NDCG: 0.2734261674473465, At Epoch 9
+Training complete!
+
+Process finished with exit code 0

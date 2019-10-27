@@ -1,0 +1,231 @@
+64维
+
+F:\python\py\python.exe F:/pycharm/Rec_MP_trans_hr/Model.py
+Loading ml-1m data set...
+Loading Success!
+Data Info:
+	User Num: 6040
+	Item Num: 3952
+	Data Size: 1000209
+F:\python\py\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-10-29 16:03:03.921904: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-29 16:03:03.922733: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-29 16:03:03.923811: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-29 16:03:03.924941: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-29 16:03:03.925722: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-29 16:03:03.926503: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-29 16:03:03.929276: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-29 16:03:03.930101: W d:\build\tensorflow\tensorflow-r1.2\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Start Training!
+====================Epoch  0 ====================
+19290 / 19300 : loss = 0.27066880464553833
+Mean loss in this epoch is: 0.31901484727859497
+==================================================
+Start Evaluation!
+Epoch  0 HR: 0.66158940397351, NDCG: 0.40369315032381053
+====================Epoch  0 End====================
+====================Epoch  1 ====================
+19290 / 19300 : loss = 0.264717161655426
+Mean loss in this epoch is: 0.2765404284000397
+==================================================
+Start Evaluation!
+Epoch  1 HR: 0.6975165562913908, NDCG: 0.43258571489521036
+====================Epoch  1 End====================
+====================Epoch  2 ====================
+19290 / 19300 : loss = 0.23463883996009827
+Mean loss in this epoch is: 0.25507134199142456
+==================================================
+Start Evaluation!
+Epoch  2 HR: 0.7231788079470198, NDCG: 0.4595137774016061
+====================Epoch  2 End====================
+====================Epoch  3 ====================
+19290 / 19300 : loss = 0.22873392701148987
+Mean loss in this epoch is: 0.243886798620224
+==================================================
+Start Evaluation!
+Epoch  3 HR: 0.731953642384106, NDCG: 0.46584478167944615
+====================Epoch  3 End====================
+====================Epoch  4 ====================
+19290 / 19300 : loss = 0.23937979340553284
+Mean loss in this epoch is: 0.23639096319675446
+==================================================
+Start Evaluation!
+Epoch  4 HR: 0.7417218543046358, NDCG: 0.4750753346107752
+====================Epoch  4 End====================
+====================Epoch  5 ====================
+19290 / 19300 : loss = 0.23612606525421143
+Mean loss in this epoch is: 0.2309853881597519
+==================================================
+Start Evaluation!
+Epoch  5 HR: 0.7501655629139072, NDCG: 0.4822487978173682
+====================Epoch  5 End====================
+====================Epoch  6 ====================
+19290 / 19300 : loss = 0.2104427069425583
+Mean loss in this epoch is: 0.2263271063566208
+==================================================
+Start Evaluation!
+Epoch  6 HR: 0.752317880794702, NDCG: 0.4890774675112652
+====================Epoch  6 End====================
+====================Epoch  7 ====================
+19290 / 19300 : loss = 0.2341163605451584
+Mean loss in this epoch is: 0.22297322750091553
+==================================================
+Start Evaluation!
+Epoch  7 HR: 0.759271523178808, NDCG: 0.49241301056075576
+====================Epoch  7 End====================
+====================Epoch  8 ====================
+19290 / 19300 : loss = 0.2309454381465912
+Mean loss in this epoch is: 0.2198394238948822
+==================================================
+Start Evaluation!
+Epoch  8 HR: 0.7567880794701987, NDCG: 0.4932228532150088
+====================Epoch  8 End====================
+====================Epoch  9 ====================
+19290 / 19300 : loss = 0.2249860316514969
+Mean loss in this epoch is: 0.2171751856803894
+==================================================
+Start Evaluation!
+Epoch  9 HR: 0.7586092715231788, NDCG: 0.4914623778636559
+====================Epoch  9 End====================
+====================Epoch  10 ====================
+19290 / 19300 : loss = 0.21437862515449524
+Mean loss in this epoch is: 0.21482710540294647
+==================================================
+Start Evaluation!
+Epoch  10 HR: 0.7579470198675496, NDCG: 0.49676193589408657
+====================Epoch  10 End====================
+====================Epoch  11 ====================
+19290 / 19300 : loss = 0.2092091292142868
+Mean loss in this epoch is: 0.21261928975582123
+==================================================
+Start Evaluation!
+Epoch  11 HR: 0.7582781456953642, NDCG: 0.5013020649815509
+====================Epoch  11 End====================
+====================Epoch  12 ====================
+19290 / 19300 : loss = 0.20173153281211853
+Mean loss in this epoch is: 0.21078228950500488
+==================================================
+Start Evaluation!
+Epoch  12 HR: 0.7675496688741722, NDCG: 0.5083368966627358
+====================Epoch  12 End====================
+====================Epoch  13 ====================
+19290 / 19300 : loss = 0.2236810177564621
+Mean loss in this epoch is: 0.20914939045906067
+==================================================
+Start Evaluation!
+Epoch  13 HR: 0.7645695364238411, NDCG: 0.5043761814951396
+====================Epoch  13 End====================
+====================Epoch  14 ====================
+19290 / 19300 : loss = 0.2306881844997406
+Mean loss in this epoch is: 0.20737004280090332
+==================================================
+Start Evaluation!
+Epoch  14 HR: 0.7627483443708609, NDCG: 0.5069783865317383
+====================Epoch  14 End====================
+====================Epoch  15 ====================
+19290 / 19300 : loss = 0.21343612670898438
+Mean loss in this epoch is: 0.20638369023799896
+==================================================
+Start Evaluation!
+Epoch  15 HR: 0.7647350993377483, NDCG: 0.5060271372812554
+====================Epoch  15 End====================
+====================Epoch  16 ====================
+19290 / 19300 : loss = 0.2060844898223877
+Mean loss in this epoch is: 0.20466239750385284
+==================================================
+Start Evaluation!
+Epoch  16 HR: 0.7614238410596027, NDCG: 0.5071579520025385
+====================Epoch  16 End====================
+====================Epoch  17 ====================
+19290 / 19300 : loss = 0.17720888555049896
+Mean loss in this epoch is: 0.2035144567489624
+==================================================
+Start Evaluation!
+Epoch  17 HR: 0.7637417218543047, NDCG: 0.507018456153327
+====================Epoch  17 End====================
+====================Epoch  18 ====================
+19290 / 19300 : loss = 0.20620708167552948
+Mean loss in this epoch is: 0.20208410918712616
+==================================================
+Start Evaluation!
+Epoch  18 HR: 0.7715231788079471, NDCG: 0.5071424867660936
+====================Epoch  18 End====================
+====================Epoch  19 ====================
+19290 / 19300 : loss = 0.2074875831604004
+Mean loss in this epoch is: 0.20127637684345245
+==================================================
+Start Evaluation!
+Epoch  19 HR: 0.7667218543046358, NDCG: 0.5072814591658135
+====================Epoch  19 End====================
+====================Epoch  20 ====================
+19290 / 19300 : loss = 0.20704486966133118
+Mean loss in this epoch is: 0.20049823820590973
+==================================================
+Start Evaluation!
+Epoch  20 HR: 0.7642384105960265, NDCG: 0.507931889895425
+====================Epoch  20 End====================
+====================Epoch  21 ====================
+19290 / 19300 : loss = 0.19665655493736267
+Mean loss in this epoch is: 0.19946786761283875
+==================================================
+Start Evaluation!
+Epoch  21 HR: 0.7619205298013245, NDCG: 0.5064728991535906
+====================Epoch  21 End====================
+====================Epoch  22 ====================
+19290 / 19300 : loss = 0.2033795416355133
+Mean loss in this epoch is: 0.19864583015441895
+==================================================
+Start Evaluation!
+Epoch  22 HR: 0.7658940397350993, NDCG: 0.5066633931921546
+====================Epoch  22 End====================
+====================Epoch  23 ====================
+19290 / 19300 : loss = 0.22000634670257568
+Mean loss in this epoch is: 0.19787241518497467
+==================================================
+Start Evaluation!
+Epoch  23 HR: 0.7683774834437086, NDCG: 0.5042819028062016
+====================Epoch  23 End====================
+====================Epoch  24 ====================
+19290 / 19300 : loss = 0.18924522399902344
+Mean loss in this epoch is: 0.19690683484077454
+==================================================
+Start Evaluation!
+Epoch  24 HR: 0.7677152317880794, NDCG: 0.5111705783663364
+====================Epoch  24 End====================
+====================Epoch  25 ====================
+19290 / 19300 : loss = 0.2098892629146576
+Mean loss in this epoch is: 0.19613458216190338
+==================================================
+Start Evaluation!
+Epoch  25 HR: 0.7645695364238411, NDCG: 0.5032395292730578
+====================Epoch  25 End====================
+====================Epoch  26 ====================
+19290 / 19300 : loss = 0.18517015874385834
+Mean loss in this epoch is: 0.19577902555465698
+==================================================
+Start Evaluation!
+Epoch  26 HR: 0.7639072847682119, NDCG: 0.5070405867084525
+====================Epoch  26 End====================
+====================Epoch  27 ====================
+19290 / 19300 : loss = 0.20049145817756653
+Mean loss in this epoch is: 0.19501757621765137
+==================================================
+Start Evaluation!
+Epoch  27 HR: 0.7645695364238411, NDCG: 0.5100551116590227
+====================Epoch  27 End====================
+====================Epoch  28 ====================
+19290 / 19300 : loss = 0.18596802651882172
+Mean loss in this epoch is: 0.19397981464862823
+==================================================
+Start Evaluation!
+Epoch  28 HR: 0.7632450331125827, NDCG: 0.5070709508726805
+====================Epoch  28 End====================
+====================Epoch  29 ====================
+19290 / 19300 : loss = 0.1923985332250595
+Mean loss in this epoch is: 0.1937732696533203
+==================================================
+Start Evaluation!
+Epoch  29 HR: 0.7594370860927152, NDCG: 0.5059627615562606
+====================Epoch  29 End====================
+====================Epoch  30 ====================
